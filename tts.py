@@ -1,5 +1,7 @@
+#импорты
 import pyttsx3
 
+#говорить
 def speak(speech):
     engine = pyttsx3.init()
     voices = engine.getProperty('voices')
@@ -8,6 +10,3 @@ def speak(speech):
     engine.say(speech)
     engine.runAndWait()
 
-#ладно
-#в общем я наконец то разобрался с pyttsx3
-#ты не сможешь запустить, тут id для маков

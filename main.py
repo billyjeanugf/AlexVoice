@@ -6,4 +6,4 @@ for text in listen():
     if text == alias:
         speak("привет")
     else:
-        speak("нахуй пошел")
+        speak("не понимаю")

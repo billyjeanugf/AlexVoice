@@ -1,8 +1,6 @@
 #импорты
 import json, pyaudio
 from vosk import Model, KaldiRecognizer
-from tts import speak
-from config import *
 
 #входные данные для работы ии
 model = Model('speech_model')
